@@ -35,6 +35,48 @@ print(stringr)
 # List values can even contain other lists within them.
 
 spamL = [['dog', 'cat'], [1, 2, 3]]
+>>> spamL[0]
+# ['dog', 'cat']
+>>> spamL[0][0]
+# 'dog'
+>>> spamL[0][1]
+# 'cat'
+>>> spamL[1][0]
+# 1
+>>> spamL[1][1]
+# 2
+
+####################################################################
+# Using len() and the in Operator with Lists
+
+animals = ['aardvark', 'anteater', 'antelope', 'albert']
+
+>>> len(animals)
+# Guess
+
+>>> 'anteater' in animals
+# Guess
+>>> 'anteater' not in animals   
+# Guess 
+>>> 'anteat' in animals   
+# Guess 
+>>> 'anteat' in animals[1]   
+# Guess 
+>>> 'delicious spam' in animals
+# Guess
+
+# expression 3 evaluates to False because the string 'anteat' does not exist in the animals list. 
+# However, the expression at 4 evaluates to True because animals[1] is the string 'anteater' and 'anteat' exists within that string.
+
+>>> animals = []
+>>> len(animals)
+# Guess
+
+
+
+
+
+
 
 
 
