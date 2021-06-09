@@ -72,6 +72,17 @@ animals = ['aardvark', 'anteater', 'antelope', 'albert']
 >>> len(animals)
 # Guess
 
+####################################################################
+# List Concatenation and Replication with the + and * Operators
+
+['hello'] + ['world']
+# ['hello', 'world']
+
+['hello'] * 5
+# Guess
+
+
+
 
 
 
