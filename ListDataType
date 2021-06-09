@@ -1,0 +1,10 @@
+animals = ['aardvark', 'anteater', 'antelope', 'albert']
+
+animals[0]
+animals[1]
+
+for item in ['chicken', 'goat', 'sheep', 'fish', 'prawns']:
+    print('For dinner we are cooking ' + item)
+    
+# Reassigning the Items in Lists
+
